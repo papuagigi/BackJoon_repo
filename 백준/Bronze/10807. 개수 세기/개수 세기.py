@@ -1,8 +1,10 @@
 import sys
 
-N = map(int,sys.stdin.readline().split())
-l = list(map(int,sys.stdin.readline().split()))
-v = int(sys.stdin.readline())
+input = sys.stdin.readline
+
+N = map(int,input().split())
+l = list(map(int,input().split()))
+v = int(input())
 n=0
 
 for i in l:
